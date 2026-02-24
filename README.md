@@ -16,11 +16,11 @@ This repository contains the full implementation, benchmarking pipeline, and exp
 
 
 ## Repository Structure
-datasets/ External dataset links (see datasets/README.md)
-results/ Stored benchmark outputs (JSON + CSV)
-figures/ Generated charts and tables
-notebooks/ Experiment & visualization notebooks
-thesis/ Final report files
+- datasets/ External dataset links (see datasets/README.md)
+- results/ Stored benchmark outputs (JSON + CSV)
+- figures/ Generated charts and tables
+- notebooks/ Experiment & visualization notebooks
+- thesis/ Final report files
 
 
 
@@ -44,8 +44,6 @@ See `datasets/README.md` for details.
 
 ## Figures (Preview)
 Click a figure to view full size.
-
-[![Runtime Sensitivity](figures/Runtime%20Sensitivity%20to%20Support%20(alpha)%20and%20Occupancy%20(beta).png)](figures/Runtime%20Sensitivity%20to%20Support%20(alpha)%20and%20Occupancy%20(beta).png)
 
 [![Peak Memory](figures/Peak%20Memory%20Footprint%20by%20Dataset%20and%20Algorithm.png)](figures/Peak%20Memory%20Footprint%20by%20Dataset%20and%20Algorithm.png)
 
