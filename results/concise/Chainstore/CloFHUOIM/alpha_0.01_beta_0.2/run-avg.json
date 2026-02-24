@@ -1,0 +1,17 @@
+{
+  "Algorithm": "CloFHUOIM",
+  "Dataset": "Chainstore",
+  "Runtime": 657.389537970225,
+  "Peak_Memory": 0.0,
+  "Patterns_Found": 238,
+  "Candidates_Evaluated": 955,
+  "Pruned_Nodes": 0,
+  "Wubocc_Pruned": 381,
+  "Total_Expanded": 955,
+  "Threshold_Trace": [],
+  "Params": {
+    "alpha": 0.01,
+    "beta": 0.2
+  },
+  "Run_ID": "avg"
+}

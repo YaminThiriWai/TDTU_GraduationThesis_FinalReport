@@ -1,0 +1,17 @@
+{
+  "Algorithm": "HUOMIL",
+  "Dataset": "Mushroom",
+  "Runtime": 1.6220525900522869,
+  "Peak_Memory": 24.223124504089355,
+  "Patterns_Found": 0,
+  "Candidates_Evaluated": 0,
+  "Pruned_Nodes": 0,
+  "Wubocc_Pruned": 0,
+  "Total_Expanded": 0,
+  "Threshold_Trace": [],
+  "Params": {
+    "alpha": 0.4,
+    "beta": 0.4
+  },
+  "Run_ID": "avg"
+}

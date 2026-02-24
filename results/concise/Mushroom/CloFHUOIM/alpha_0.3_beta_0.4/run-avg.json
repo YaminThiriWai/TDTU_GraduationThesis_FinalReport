@@ -1,0 +1,17 @@
+{
+  "Algorithm": "CloFHUOIM",
+  "Dataset": "Mushroom",
+  "Runtime": 39.74138387044271,
+  "Peak_Memory": 0.0,
+  "Patterns_Found": 93,
+  "Candidates_Evaluated": 851,
+  "Pruned_Nodes": 187,
+  "Wubocc_Pruned": 326,
+  "Total_Expanded": 851,
+  "Threshold_Trace": [],
+  "Params": {
+    "alpha": 0.3,
+    "beta": 0.4
+  },
+  "Run_ID": "avg"
+}

@@ -1,0 +1,17 @@
+{
+  "Algorithm": "HUOMIL",
+  "Dataset": "Chainstore",
+  "Runtime": 1198.804675579071,
+  "Peak_Memory": 734.9464823404948,
+  "Patterns_Found": 1,
+  "Candidates_Evaluated": 1,
+  "Pruned_Nodes": 0,
+  "Wubocc_Pruned": 0,
+  "Total_Expanded": 1,
+  "Threshold_Trace": [],
+  "Params": {
+    "alpha": 0.01,
+    "beta": 0.2
+  },
+  "Run_ID": "avg"
+}

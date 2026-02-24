@@ -1,0 +1,17 @@
+{
+  "Algorithm": "HUOPM",
+  "Dataset": "Chainstore",
+  "Runtime": 154.40243728955588,
+  "Peak_Memory": 1399.949177424113,
+  "Patterns_Found": 1,
+  "Candidates_Evaluated": 1,
+  "Pruned_Nodes": 0,
+  "Wubocc_Pruned": 0,
+  "Total_Expanded": 1,
+  "Threshold_Trace": [],
+  "Params": {
+    "alpha": 0.01,
+    "beta": 0.2
+  },
+  "Run_ID": "avg"
+}

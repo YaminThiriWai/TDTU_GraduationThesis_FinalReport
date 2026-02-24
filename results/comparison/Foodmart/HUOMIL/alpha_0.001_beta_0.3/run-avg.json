@@ -1,0 +1,17 @@
+{
+  "Algorithm": "HUOMIL",
+  "Dataset": "Foodmart",
+  "Runtime": 0.19226932525634766,
+  "Peak_Memory": 2.702694574991862,
+  "Patterns_Found": 399,
+  "Candidates_Evaluated": 399,
+  "Pruned_Nodes": 0,
+  "Wubocc_Pruned": 0,
+  "Total_Expanded": 399,
+  "Threshold_Trace": [],
+  "Params": {
+    "alpha": 0.001,
+    "beta": 0.3
+  },
+  "Run_ID": "avg"
+}

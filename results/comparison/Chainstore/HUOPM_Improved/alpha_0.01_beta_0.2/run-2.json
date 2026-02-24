@@ -1,0 +1,26 @@
+{
+  "Algorithm": "HUOPM_Improved",
+  "Dataset": "Chainstore",
+  "Runtime": 590.4933640956879,
+  "Peak_Memory": 734.9463882446289,
+  "Patterns_Found": 1,
+  "Candidates_Evaluated": 1,
+  "Pruned_Nodes": 0,
+  "Wubocc_Pruned": 0,
+  "Total_Expanded": 1,
+  "Threshold_Trace": [],
+  "Params": {
+    "alpha": 0.01,
+    "beta": 0.2
+  },
+  "Patterns": [
+    [
+      [
+        "899"
+      ],
+      23387,
+      0.20251227160371602
+    ]
+  ],
+  "Run_ID": 2
+}

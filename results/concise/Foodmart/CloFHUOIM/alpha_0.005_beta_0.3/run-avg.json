@@ -1,0 +1,17 @@
+{
+  "Algorithm": "CloFHUOIM",
+  "Dataset": "Foodmart",
+  "Runtime": 0.07082096735636394,
+  "Peak_Memory": 0.0,
+  "Patterns_Found": 12,
+  "Candidates_Evaluated": 12,
+  "Pruned_Nodes": 0,
+  "Wubocc_Pruned": 12,
+  "Total_Expanded": 12,
+  "Threshold_Trace": [],
+  "Params": {
+    "alpha": 0.005,
+    "beta": 0.3
+  },
+  "Run_ID": "avg"
+}

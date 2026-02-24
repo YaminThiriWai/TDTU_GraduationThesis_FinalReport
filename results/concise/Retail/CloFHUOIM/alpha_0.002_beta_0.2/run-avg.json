@@ -1,0 +1,17 @@
+{
+  "Algorithm": "CloFHUOIM",
+  "Dataset": "Retail",
+  "Runtime": 108.48034739494324,
+  "Peak_Memory": 0.0,
+  "Patterns_Found": 1291,
+  "Candidates_Evaluated": 2597,
+  "Pruned_Nodes": 0,
+  "Wubocc_Pruned": 1104,
+  "Total_Expanded": 2597,
+  "Threshold_Trace": [],
+  "Params": {
+    "alpha": 0.002,
+    "beta": 0.2
+  },
+  "Run_ID": "avg"
+}

@@ -1,0 +1,17 @@
+{
+  "Algorithm": "HUOPM",
+  "Dataset": "Foodmart",
+  "Runtime": 3.1842333475748696,
+  "Peak_Memory": 5.693231264750163,
+  "Patterns_Found": 2280,
+  "Candidates_Evaluated": 2280,
+  "Pruned_Nodes": 0,
+  "Wubocc_Pruned": 0,
+  "Total_Expanded": 2280,
+  "Threshold_Trace": [],
+  "Params": {
+    "alpha": 0.0005,
+    "beta": 0.3
+  },
+  "Run_ID": "avg"
+}

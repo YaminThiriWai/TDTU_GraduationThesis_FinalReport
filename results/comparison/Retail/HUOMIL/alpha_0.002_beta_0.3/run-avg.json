@@ -1,0 +1,17 @@
+{
+  "Algorithm": "HUOMIL",
+  "Dataset": "Retail",
+  "Runtime": 8.386940717697144,
+  "Peak_Memory": 73.14056555430095,
+  "Patterns_Found": 43,
+  "Candidates_Evaluated": 43,
+  "Pruned_Nodes": 0,
+  "Wubocc_Pruned": 0,
+  "Total_Expanded": 43,
+  "Threshold_Trace": [],
+  "Params": {
+    "alpha": 0.002,
+    "beta": 0.3
+  },
+  "Run_ID": "avg"
+}

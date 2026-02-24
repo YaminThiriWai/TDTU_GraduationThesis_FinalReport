@@ -1,0 +1,47 @@
+{
+  "Algorithm": "HUOMIL",
+  "Dataset": "Mushroom",
+  "Runtime": 4.075945138931274,
+  "Peak_Memory": 31.087312698364258,
+  "Patterns_Found": 2,
+  "Candidates_Evaluated": 2,
+  "Pruned_Nodes": 0,
+  "Wubocc_Pruned": 0,
+  "Total_Expanded": 2,
+  "Threshold_Trace": [],
+  "Params": {
+    "alpha": 0.3,
+    "beta": 0.4
+  },
+  "Patterns": [
+    [
+      [
+        "104",
+        "1",
+        "67",
+        "38",
+        "97",
+        "36",
+        "94",
+        "90"
+      ],
+      2528,
+      0.4034367150609811
+    ],
+    [
+      [
+        "23",
+        "104",
+        "1",
+        "67",
+        "97",
+        "36",
+        "94",
+        "90"
+      ],
+      2528,
+      0.40792526463398093
+    ]
+  ],
+  "Run_ID": 2
+}

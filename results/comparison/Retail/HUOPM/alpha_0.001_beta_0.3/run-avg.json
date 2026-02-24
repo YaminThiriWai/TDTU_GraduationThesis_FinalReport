@@ -1,0 +1,17 @@
+{
+  "Algorithm": "HUOPM",
+  "Dataset": "Retail",
+  "Runtime": 20.655354181925457,
+  "Peak_Memory": 180.85418860117593,
+  "Patterns_Found": 111,
+  "Candidates_Evaluated": 111,
+  "Pruned_Nodes": 0,
+  "Wubocc_Pruned": 0,
+  "Total_Expanded": 111,
+  "Threshold_Trace": [],
+  "Params": {
+    "alpha": 0.001,
+    "beta": 0.3
+  },
+  "Run_ID": "avg"
+}

@@ -1,0 +1,18 @@
+{
+  "Algorithm": "CloFHUOIM",
+  "Dataset": "Foodmart",
+  "Runtime": 0.06821775436401367,
+  "Peak_Memory": 0.0,
+  "Patterns_Found": 12,
+  "Candidates_Evaluated": 12,
+  "Pruned_Nodes": 0,
+  "Wubocc_Pruned": 12,
+  "Total_Expanded": 12,
+  "Threshold_Trace": [],
+  "Params": {
+    "alpha": 0.005,
+    "beta": 0.2
+  },
+  "Patterns": "{('1521',), ('1110',), ('304',), ('1390',), ('1373',), ('1292',), ('391',), ('1442',), ('1389',), ('602',), ('1012',), ('382',)}",
+  "Run_ID": 1
+}

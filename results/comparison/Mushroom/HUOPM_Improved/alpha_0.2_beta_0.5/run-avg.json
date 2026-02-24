@@ -1,0 +1,17 @@
+{
+  "Algorithm": "HUOPM_Improved",
+  "Dataset": "Mushroom",
+  "Runtime": 41.37510871887207,
+  "Peak_Memory": 43.42247994740804,
+  "Patterns_Found": 2608,
+  "Candidates_Evaluated": 2608,
+  "Pruned_Nodes": 0,
+  "Wubocc_Pruned": 0,
+  "Total_Expanded": 2608,
+  "Threshold_Trace": [],
+  "Params": {
+    "alpha": 0.2,
+    "beta": 0.5
+  },
+  "Run_ID": "avg"
+}
