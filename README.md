@@ -1,75 +1,85 @@
-# TDTU Graduation Thesis — Final Report
+#  TDTU Graduation Thesis — Final Report
 
-**Reproduction and Optimization of High Utility-Occupancy Itemset Mining (HUOIM) Algorithms**
+## Reproduction and Optimization of High Utility-Occupancy Itemset Mining (HUOIM)
 
-This repository presents the reproduction and enhancement of state-of-the-art HUOIM algorithms:
-
-- **HUOPM**  
-- **HUOMIL**  
-- **CloFHUOIM / MaxCloFHUOIM**  
-- **HUOPM-Improved (Proposed)**  
-- **TopK-Hybrid (Proposed)**  
+This repository presents the **reproduction, evaluation, and optimization** of state-of-the-art HUOIM algorithms, along with two proposed improvements focused on scalability and usability.
 
 
-## Authors
-
+##  Authors
 - **Thant Thiri Maung** — 522K0050  
 - **Yamin Thiri Wai** — 522K0046  
 
-## Supervisor
-
+##  Supervisor
 - **Doan Xuan Thanh**
 
-## Institution
-
-**Faculty of Information Technology**  
-**Ton Duc Thang University (TDTU)**
-
-
-## Overview
-This repository contains the full implementation, benchmarking pipeline, and experimental results for our graduation thesis on HUOIM. The work focuses on reproducibility of baseline algorithms and proposes optimized variants to improve runtime, memory usage, and usability.
+##  Institution
+Faculty of Information Technology  
+Ton Duc Thang University (TDTU)
 
 
-## Repository Structure
-- datasets/ External dataset links (see datasets/README.md)
-- results/ Stored benchmark outputs (JSON + CSV)
-- figures/ Generated charts and tables
-- notebooks/ Experiment & visualization notebooks
-- thesis/ Final report files
+##  Implemented & Proposed Algorithms
+
+### Baseline Reproductions
+- **HUOPM**
+- **HUOMIL**
+- **CloFHUOIM / MaxCloFHUOIM**
+
+### Proposed Enhancements
+- **HUOPM-Improved**  
+  Memory-optimized structure using `__slots__` and faster join operations.
+
+- **TopK-Hybrid**  
+  Threshold-free Best-First Search framework for automatic top-K pattern discovery.
 
 
+##  Experimental Datasets
 
-## Algorithms Implemented
-- **HUOPM** (baseline)
-- **HUOMIL** (indexed list structure)
-- **CloFHUOIM / MaxCloFHUOIM** (concise mining)
-- **HUOPM‑Improved** (memory‑optimized + fast join)
-- **TopK‑Hybrid** (threshold‑free discovery)
+External benchmark datasets (not stored in this repository):
 
+- Chainstore  
+- Foodmart  
+- Retail  
+- Mushroom  
 
-## Datasets
-External dataset links (not stored in repo):
-- Chainstore: https://www.philippe-fournier-viger.com/spmf/publicdatasets/chainstoreFIM.txt
-- Foodmart: https://www.philippe-fournier-viger.com/spmf/publicdatasets/foodmartFIM.txt
-- Retail: https://www.philippe-fournier-viger.com/spmf/publicdatasets/retail.txt
-- Mushroom: https://www.philippe-fournier-viger.com/spmf/publicdatasets/mushrooms.txt
-
-See `datasets/README.md` for details.
+Full dataset links are provided in `datasets/README.md`.
 
 
-## Figures (Preview)
-Click a figure to view full size.
+##  Repository Structure
+
+- datasets/ → Dataset documentation & links
+
+- results/ → Benchmark outputs (JSON + CSV)
+
+- figures/ → Generated charts
+
+- notebooks/ → Visualization & analysis notebooks
+
+- thesis/ → Final report files
+
+##  Key Experimental Highlights
+
+- 47.5% peak memory reduction on large-scale datasets  
+- 10× speedup on sparse transactional data  
+- Closed mining reduced dense dataset patterns to 1.19%  
+- Automatic discovery of perfect occupancy (uo = 1.0) patterns  
+
+
+##  Figures Preview
+
+Click to view full size:
 
 [![Peak Memory](figures/Peak%20Memory%20Footprint%20by%20Dataset%20and%20Algorithm.png)](figures/Peak%20Memory%20Footprint%20by%20Dataset%20and%20Algorithm.png)
 
-[![Candidate Reduction](figures/Candidate%20Reduction%20Rates%20on%20Log%20Scale.png)](figures/Candidate%20Reduction%20Rates%20on%20Log%20Scale.png)
-
-[![Top‑k Hybrid Runtime](figures/Top-k%20Hybrid%20Runtime%20Comparison(Foodmart%20vs%20Retail).png)](figures/Top-k%20Hybrid%20Runtime%20Comparison(Foodmart%20vs%20Retail).png)
+[![Top-k Runtime](figures/Top-k%20Hybrid%20Runtime%20Comparison(Foodmart%20vs%20Retail).png)](figures/Top-k%20Hybrid%20Runtime%20Comparison(Foodmart%20vs%20Retail).png)
 
 
-## Reproducibility
-All results are stored in `results/` as:
-- `run-1.json`, `run-2.json`, `run-3.json`  
-- `run-avg.json` (average of 3 runs)
+##  Reproducibility
 
-The visualization notebook reads **only stored results** (no rerun required).
+All experimental outputs are stored in `results/`:
+
+- `run-1.json`
+- `run-2.json`
+- `run-3.json`
+- `run-avg.json`
+
+The visualization notebook reads **stored results only** — no recomputation required.
