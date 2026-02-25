@@ -1,14 +1,29 @@
-# TDTU_GraduationThesis_FinalReport
+# TDTU Graduation Thesis — Final Report
 
-Reproduction and optimization of High Utility‑Occupancy Itemset Mining (HUOIM) algorithms:
-**HUOPM**, **HUOMIL**, **CloFHUOIM/MaxCloFHUOIM**, **HUOPM‑Improved**, and **TopK‑Hybrid**.
+**Reproduction and Optimization of High Utility-Occupancy Itemset Mining (HUOIM) Algorithms**
 
-**Authors**  
-- Thant Thiri Maung (522K0050)  
-- Yamin Thiri Wai (522K0046)  
+This repository presents the reproduction and enhancement of state-of-the-art HUOIM algorithms:
 
-**Institution**  
-Faculty of Information Technology, Ton Duc Thang University
+- **HUOPM**  
+- **HUOMIL**  
+- **CloFHUOIM / MaxCloFHUOIM**  
+- **HUOPM-Improved (Proposed)**  
+- **TopK-Hybrid (Proposed)**  
+
+
+## Authors
+
+- **Thant Thiri Maung** — 522K0050  
+- **Yamin Thiri Wai** — 522K0046  
+
+## Supervisor
+
+- **Doan Xuan Thanh**
+
+## Institution
+
+**Faculty of Information Technology**  
+**Ton Duc Thang University (TDTU)**
 
 
 ## Overview
