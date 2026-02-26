@@ -46,15 +46,11 @@ Full dataset links are provided in `datasets/README.md`.
 
 ##  Repository Structure
 
-- datasets/ → Dataset documentation & links
-
-- results/ → Benchmark outputs (JSON + CSV)
-
-- figures/ → Generated charts
-
-- notebooks/ → Visualization & analysis notebooks
-
-- thesis/ → Final report files
+- [datasets/](https://github.com/YaminThiriWai/TDTU_GraduationThesis_FinalReport/tree/main/datasets) → Dataset documentation & links  
+- [results/](https://github.com/YaminThiriWai/TDTU_GraduationThesis_FinalReport/tree/main/results) → Benchmark outputs (JSON + CSV)  
+- [figures/](https://github.com/YaminThiriWai/TDTU_GraduationThesis_FinalReport/tree/main/figures) → Generated charts  
+- [notebooks/](https://github.com/YaminThiriWai/TDTU_GraduationThesis_FinalReport/tree/main/notebooks) → Visualization & analysis notebooks  
+- [thesis/](https://github.com/YaminThiriWai/TDTU_GraduationThesis_FinalReport/tree/main/thesis) → Final report files  
 
 ##  Key Experimental Highlights
 
